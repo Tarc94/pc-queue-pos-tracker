@@ -1,0 +1,22 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Chrome Extension packaging
+*.crx
+*.pem
+
+# Logs
+*.log
+
+# Visual Studio/VS Code files
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Environment files
+.env
+.env.*
