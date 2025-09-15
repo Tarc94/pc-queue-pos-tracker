@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Pokemon Center Position Tracker",
+  "version": "1.2",
+  "description": "Informs the user of their position within the Queue on the Pokemon Center website.",
+  "permissions": [
+    "webRequest"
+  ],
+  "host_permissions": [
+    "https://www.pokemoncenter.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Pokemon Center Position Tracker",
+    "default_icon": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
